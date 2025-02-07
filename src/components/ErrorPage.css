@@ -1,0 +1,33 @@
+.errPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.border {
+  background-color: #fefffe;
+  height: 50vh;
+  width: 50vw;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1rem;
+}
+.border img {
+  height: 80%;
+  width: 55%;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.description h1 {
+  font-size: 5rem;
+  color: red;
+}
+.description h4 {
+  font-size: 1.4rem;
+}

@@ -1,0 +1,68 @@
+.InfoBox {
+  display: flex;
+  position: fixed;
+  right: 50px;
+  margin: 2rem;
+  width: 30vw;
+  background-image: linear-gradient(45deg, #2f4680, #500ae4);
+  height: 89vh;
+  top: 0;
+  border-radius: 15px;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.widgets {
+  height: 25vh;
+  width: 27vw;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.box {
+  width: 8vw;
+  height: 20vh;
+  background-color: #ebfffc;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box img {
+  width: 5vw;
+  height: 8vh;
+}
+.visibility {
+  margin-right: 1rem;
+}
+@media (width<426px) {
+  .InfoBox {
+    position: static;
+    margin: 0.5rem 1.5rem 1rem 1.5rem;
+    width: 90vw;
+    height: 87%;
+    padding: 15px;
+    z-index: 0;
+    margin-bottom: 10rem;
+  }
+  .widgets {
+    height: 20vh;
+    width: 90vw;
+    padding: 0px;
+  }
+  .box {
+    width: 32vw;
+    height: 18vh;
+  }
+  .box img {
+    width: 14vw;
+    height: 6vh;
+  }
+}

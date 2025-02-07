@@ -1,0 +1,87 @@
+.container {
+  background-image: linear-gradient(45deg, #2f4680, #500ae4);
+  margin: 1rem 1rem 1rem 4rem;
+  width: 55vw;
+  border-radius: 15px;
+  display: flex;
+  height: 58vh;
+  justify-content: space-around;
+  padding: 2.5rem;
+  position: absolute;
+  top: 7rem;
+  flex-direction: column;
+  place-items: center;
+}
+.tempBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 34rem;
+  height: 10rem;
+  gap: 0.4rem;
+  color: #ebfffc;
+}
+.tempBox img {
+  height: 7rem;
+  width: 7rem;
+}
+.sunTimeBox {
+  width: 34vw;
+  height: 10rem;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.temp {
+  font-size: 1.8rem;
+}
+.sunrise img {
+  width: 7.5rem;
+  height: 4rem;
+}
+.sunset img {
+  width: 8.5rem;
+  height: 5.5rem;
+}
+.sunrise {
+  line-height: 40px;
+  text-align: center;
+}
+.sunset {
+  text-align: center;
+}
+.material-symbols-outlined {
+  position: relative;
+  top: 5px;
+}
+@media (width<430px) {
+  .container {
+    margin: 0.5rem 1.5rem 1rem 1.5rem;
+    width: 90vw;
+    height: 60vh;
+    position: static;
+    padding: 2rem;
+  }
+  .sunTimeBox {
+    width: 75vw;
+    height: 10rem;
+    position: relative;
+    top: -20px;
+  }
+  .tempBox {
+    width: 75vw;
+    height: 10rem;
+    gap: 0rem;
+  }
+  .tempBox img {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+  .tempBox p {
+    font-size: 1.2rem;
+  }
+}

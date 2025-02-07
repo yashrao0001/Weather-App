@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  font-family: "Poppins", sans-serif;
+}
+.hidden {
+  display: none;
+}
+@media (width<426px) {
+  html,
+  body {
+    overflow-x: hidden;
+    background-color: #e2d4ff;
+  }
+  .hidden {
+    display: block;
+    height: 2rem;
+  }
+}
